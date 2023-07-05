@@ -9,7 +9,7 @@ This project is an implementation of XCNV (https://github.com/kbvstmd/XCNV) to a
 The project is designed to upload results in S3 bucket. Add your S3 credentials in cloud/credentials.config (copy the template file cloud/credentials_example.cloud and rename it). The results will be stored in /xcnv folder in your S3 bucket.
 
 
-## 3 - Configuring with AWS Lambda
+## 3 - Configuring AWS Lambda
 
 Once you have uploaded the image to your AWS Elastic Container Registry (ECR), you can use it in AWS Lambda. The image requires 2 GB of ephemere storage, 6-7 GB of RAM and 5-7 minutes timeout (the firsts run are very slow in AWS Lambda).
 
