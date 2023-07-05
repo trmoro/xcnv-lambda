@@ -35,7 +35,7 @@ Your Test event/Test JSON will looks like :
 }
 ````
 
-Example with 2 query :
+Example with 2 queries :
 ````
 1  1000000 2000000 gain
 1  1000000 2000000 loss
