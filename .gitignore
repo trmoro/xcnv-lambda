@@ -1,2 +1,3 @@
-cloud/credentials.config
+cloud/mongo_credentials.config
+XCNV/
 __pycache__
